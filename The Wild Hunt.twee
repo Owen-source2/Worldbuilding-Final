@@ -1,0 +1,74 @@
+:: StoryTitle
+The Wild Hunt
+
+
+:: StoryData
+{
+  "ifid": "F7048DF8-6AE0-4DAF-83D2-78EA2A5F1807",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Backstory",
+  "zoom": 1
+}
+
+
+:: Backstory {"position":"900,300","size":"100,100"}
+On a cold winter night, deep in the Appalachian mountains, a pained howl emerges from the woods. Young Silas is awoken with a start, and runs to his father's room. By the time he gets there, his father is already up, unracking his gun.
+
+"What was that, Dad?" Silas asks, trembling in fear.
+
+"Nothing, son. Get your sister, and hide in the basement. I'll be right there, okay?"
+
+"But Dad-!"
+
+"NOW!'
+
+Shaking off his tiredness, Silas gets a closer look at his father. Though his face shows unwavering confidence, his hands are shaking like trees in a hurricane. 
+
+"...Okay. But, promise you'll come quick?"
+
+"Of course, son. Now go!"
+
+[[Hide|Backstory II]]
+
+
+:: Backstory II {"position":"900,500","size":"100,100"}
+Wasting no time, Silas gets his sister, and runs to the basement. Quaking in fear, he waits for his parents. After a few minutes, he hears gunshots, followed by two bloodcurdling screams. Both children start crying, and Silas desperately hopes his father will come thrrough that door any second to calm them down. However, he knows what those screams most likely mean, and moves to barricade the door.
+
+Just a moment too late.
+
+Claws the size of bowie knives tear through the flimsy wood, and the whole door begins to splinter. Silas dives under a couch and silences his breathing. He screams for his sister to follow him, but she freezes in the middle of his room. Realizing it's too late, Silas bites back sobs as he watches his sister be ripped apart. The pool of blood coats the left side of his face, and her screams will haunt Silas to his last day.
+
+[[Present Day]]
+
+
+:: Cautious Start {"position":"700,1100","size":"100,100"}
+You pick up the stone to get a closer look. The sheer magical power makes it feel like holding a plasma globe. Engraved  on the side is an inscription: "''Orda Aldressia armament''"
+
+[[That's strange. Whatever, back to the hunt!|Hothead start]]
+[[Whoever made this is clearly powerful. Nope! I'm outta here!|Retreat]]
+
+
+:: Hothead start {"position":"1100,1100","size":"100,100"}
+
+
+
+:: Monster Fight {"position":"900,900","size":"100,100"}
+When you arrive at the scene, you take a look around. The tracks have trampled the grass down to exposed soil, and the larger vegetation has been torn to shreds. Telltale signs of a gnoll. You hear it giggling, probably no more than 20 feet in front of you. By the side of the trail, you see a small stone, giving off a powerful magical aura.
+
+[[Investigate the stone|Cautious Start]]
+[[Follow the trail|Hothead start]]
+
+
+:: Present Day {"position":"900,700","size":"100,100"}
+"Thanks for the tip, Barb! I'll have it dealt with before dawn hits your window!" Silas says, standing up from his seat at the diner.
+
+"Oh, thank you! Glad we can always rely on our local monster hunter!"
+
+As Silas walks out the door, his friendly smile hardens into cold concentration. "//Great, another monster just on the outskirts of town. That's the tenth monster sighting this week! Not to mention there being a damn gnoll in the forest! Gnolls live in savannas, how did it even get here?!//" Silas thinks to himself, making his way home. "//Whatever. Nothing I can't handle. I'll just grab my gear, get to the scene, dispatch it and be home for dinner!//"
+
+[[To the scene|Monster Fight]]
+
+
+:: Retreat {"position":"700,1300","size":"100,100"}
+
