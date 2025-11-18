@@ -49,8 +49,69 @@ You pick up the stone to get a closer look. The sheer magical power makes it fee
 [[Whoever made this is clearly powerful. Nope! I'm outta here!|Retreat]]
 
 
-:: Hothead start {"position":"1100,1100","size":"100,100"}
+:: Death {"position":"900,1100","size":"100,100"}
+The world goes black, mercifully sparing you from the knowledge of what comes next.
 
+''YOU DIED.''
+
+[[Play Again?|Present Day]]
+
+
+:: Gnoll Evasive {"position":"1300,1100","size":"100,100"}
+Taking an evasive stance, you dart out of the beast's path. As he overshoots, you pick up a large stone, and hurl it at his back. The hit is square, buying you some time. You decide to...
+
+[[Draw your blade|Gnoll Sword]]
+[[Charge a spell|Gnoll Fire]]
+[[Charge with your bare hands|Gnoll Reckless Charge]]
+
+
+:: Gnoll Fire {"position":"1100,1300","size":"100,100"}
+You get clear of his charge, and ready Fireball. You clear your mind, and begin to chant.
+
+O, lord of fire, God on high...(click:"O, lord of fire, God on high...")[
+
+Show my foe, the end is nigh!(click:"Show my foe, the end is nigh!")[
+
+Douse this field in flames so bright...(click:"Douse this field in flames so bright...")[
+
+Cleanse his soul, and end this fight!(click:"Cleanse his soul, and end this fight!")[
+
+I cast Fireball, at 5th level! ''BURN!''(click:"I cast Fireball, at 5th level! BURN!")[
+
+The clearing is engulfed in flames, merely licking yourself and the vegetation. However, your foe is taken fiercely, yet calmly, to the Great Beyond. You dust off the soot, and [[walk away|Gnoll Victory]], satisfied with a job well done. ]]]]]
+
+
+:: Gnoll Reckless Charge {"position":"1100,900","size":"100,100"}
+Before your foe has time to pivot, you erupt into a furious charge! The stumbling beast freezes for a moment, before meeting your charge with open jaws. As you throw a punch, his jaws close around it, dusting the air with red. You let out a cry of pain, frantically writhing to get free, but it's no use. His incredible bite strength tears your forearm clean off, the white hot pain blinding you to the claws heading for your abdomen. 
+
+You fall to the ground, mind racing for a way out, but [[finding nothing.|Death]]
+
+
+:: Gnoll Sword {"position":"1300,1300","size":"100,100"}
+As the beast charges, you plant your feet and draw your sword. With practiced ease, you wait for him to get into the perfect position.
+
+Not yet...
+(click:"Not yet...")[
+Not yet...
+(click:"Not yet...")[
+NOW!
+(click:"NOW!")
+
+[With a single mighty swing of your sword, the gnoll's head is torn asunder! The air, so chaotic moments ago, is beset by a pregnant silence, only broken by the wet ''thud'' made by the body.
+
+You dust off your hands, clean your blade, and [[leave.|Gnoll Victory]]]
+]]
+
+
+:: Gnoll Victory {"position":"1200,1600","size":"100,100"}
+
+
+
+:: Hothead start {"position":"1100,1100","size":"100,100"}
+You follow the trail into a small clearing, where you find the gnoll. Hunched over, he still stands at a mighty 6'3, spotted dark coat making him near invisible in the dark forest. He rises from his hunched posture, lets out a horrible noise, and runs at you. Ready for the challenge, you: 
+[[Draw your blade|Gnoll Sword]]
+[[Charge a fire spell|Gnoll Fire]]
+[[Prepare to dodge|Gnoll Evasive]]
 
 
 :: Monster Fight {"position":"900,900","size":"100,100"}
