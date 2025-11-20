@@ -49,12 +49,48 @@ You pick up the stone to get a closer look. The sheer magical power makes it fee
 [[Whoever made this is clearly powerful. Nope! I'm outta here!|Retreat]]
 
 
+:: Cautious(Inv) {"position":"700,1900","size":"100,100"}
+In a room far away, two men sit at a table.
+
+"So, he didn't take the bait, huh?" The first man says.
+
+"He must have noticed our barrier stones. We put some powerful cloaking spells on those, he must be quite powerful to have noticed them. We must be careful, Valeris." The second man responds.
+
+"It's quite a shame, Nalen. A man of his skill would do great work in the Orda, yet he seems to have settled for being a mere vigilante. Why?" Valeris ponders.
+
+"No matter. If he's this cautious, we must be far more subtle in our approach. Perhaps he recognized our bait wasn't native to this environment?"
+
+"Perhaps. Whatever it is, he's clearly a bigger threat to the balance of our world than we had assumed. A rogue hunter with that kind of magical ability cannot be ignored."
+
+"We need more intel. We should follow him around, learn what makes him tick. If we can fabricate a call he can't ignore, we'll have him for sure!" Nalen proclaims, a goofy smile on his face.
+
+[["Agreed"|Next Hunt(Cautious)]]
+
+
+
 :: Death {"position":"900,1100","size":"100,100"}
 The world goes black, mercifully sparing you from the knowledge of what comes next.
 
 ''YOU DIED.''
 
 [[Play Again?|Present Day]]
+
+
+:: Gnoll Escape {"position":"1200,1700","size":"100,100"}
+You pour all of your will, your entire being, into your blade. You close your eyes, and pray.
+
+(click:"pray")["//O gods, or whoever is listening, if my quest be truly just and noble, guide my blade. Let it strike true, that I may save many more.//"
+
+(click:"Let it strike true")[You open your eyes, and let your blade fly.
+
+(click:"fly")[When your blade meets the fireball, the dark clearing is doused in brilliant iridescence. The fireball barts around you, and is absorbed into your blade!
+
+"What?!" Valeris yells, shocked by your display.
+
+"Heh, it seems you were right." You say, smug as a jaguar over a fresh kill. "The goods have smiled upon my soul."
+
+With a final shout, you swing your blade, emitting a great beam of light. The beam knocks Valeris back out of sight, and goes on to shatter the barrier. Tired as can be, you [[walk away|Hothead(Inv)]], intent on sleeping like a log.
+]]]
 
 
 :: Gnoll Evasive {"position":"1300,1100","size":"100,100"}
@@ -103,7 +139,23 @@ You dust off your hands, clean your blade, and [[leave.|Gnoll Victory]]]
 ]]
 
 
-:: Gnoll Victory {"position":"1200,1600","size":"100,100"}
+:: Gnoll Victory {"position":"1200,1500","size":"100,100"}
+As you leave the clearing, a brilliant blue light erupts from the ground! You're completely surrounded, the light clearly being some manner of barrier spell.
+
+"Well, well, well, what do we have here?" An elegant voice drawls from behind you. "Too caught up in your rampage to notice me?"
+
+"Who are you?" You shout, taking a fighting stance.
+
+"My name is Valeris. I am an agent for the balance of this world. A balance your so-called 'justice' has knocked asunder." The man takes a breath, and his hands begin to glow red. "Abandon your crusade now, or you will meet the same fate you have given so many."
+
+"Are you serious? Why are you //defending// these... these ''monsters''?" You harden your face, and draw your blade. "I'll NEVER stop fighting for what is right!"
+
+"I see. No matter, your defiance is quite futile. However, I commend your unshakable will. May you take comfort in that the gods will surely smile upon your soul." Valeris says, coldly, yet with no malice.
+
+"Fireball."
+
+[[Parry|Gnoll Escape]]
+
 
 
 
@@ -114,11 +166,37 @@ You follow the trail into a small clearing, where you find the gnoll. Hunched ov
 [[Prepare to dodge|Gnoll Evasive]]
 
 
+:: Hothead(Inv) {"position":"1200,1900","size":"100,100"}
+"Damn, he got you good, eh, Valeris? I thought he was, and I quote, 'just some hunter, won't take me an hour.'" 
+
+Valeris groans. "Not the time, Nalen. I underestimated him, and he put me in my place. It is not a mistake I am keen to repeat."
+
+Nalen puts his hands up in a surrender pose. "Okay, okay, I'll leave you alone. What exactly happened?"
+
+As Valeris recounts the story, Nalen's jovial face slowly hardens. "Valeris, this isn't a threat we can ignore. Hell, there might not even be time to call for backup!"
+
+"That's not even the main issue. At his level, most nearby agents would only hinder us."
+
+"Right, forgot most of the Orda's off in Europe. Either way, the trap itself worked like a charm! The only flaw was that we didn't include an offensive component. A turreted barrier, for example, would be more than enough to bring him down, without enough power to self-destruct."
+
+"A splendid idea, Nalen!" Valeris compliments.
+
+[[Back to Silas|Next Hunt(Hothead)]]
+
+
 :: Monster Fight {"position":"900,900","size":"100,100"}
 When you arrive at the scene, you take a look around. The tracks have trampled the grass down to exposed soil, and the larger vegetation has been torn to shreds. Telltale signs of a gnoll. You hear it giggling, probably no more than 20 feet in front of you. By the side of the trail, you see a small stone, giving off a powerful magical aura.
 
 [[Investigate the stone|Cautious Start]]
 [[Follow the trail|Hothead start]]
+
+
+:: Next Hunt(Cautious) {"position":"700,2100","size":"100,100"}
+
+
+
+:: Next Hunt(Hothead) {"position":"1200,2100","size":"100,100"}
+
 
 
 :: Present Day {"position":"900,700","size":"100,100"}
@@ -131,5 +209,9 @@ As Silas walks out the door, his friendly smile hardens into cold concentration.
 [[To the scene|Monster Fight]]
 
 
-:: Retreat {"position":"700,1300","size":"100,100"}
+:: Retreat {"position":"700,1500","size":"100,100"}
+You decide that //something// feels off here. Gnolls don't even live in forests! 
 
+//"Yeah, this is DEFINITELY a trap"//, you think to yourself. //"Whoever made that stone is probably the one who set it. And they're ''powerful''. This could be bad, I should get out of here."//
+
+[[Leave|Cautious(Inv)]]
