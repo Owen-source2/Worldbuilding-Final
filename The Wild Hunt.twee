@@ -7,9 +7,28 @@ The Wild Hunt
   "ifid": "F7048DF8-6AE0-4DAF-83D2-78EA2A5F1807",
   "format": "Harlowe",
   "format-version": "3.3.9",
-  "start": "Backstory",
+  "start": "Start Game",
   "zoom": 1
 }
+
+
+:: Attack Camp {"position":"275,2075","size":"100,100"}
+Your //Bloodlust// has no bounds and you charge into the camp without question to kill the next monsters you see. However, you aren't stupid. You understand your distance probably isn't enough from the Orda's presence. You must quietly kill these monsters without drawing attention. 
+
+You hide behind boxes within the camp and analyze your surroundings. You see 3 vampires wandering around in the middle of the camp. You start to plan your moves carefully to quickly and silently assassinate these monsters with ease. Then you look to your left and see another vampire look towards you. Your position becomes //exposed// as the vampire screeches loudly alerting the other vampires to your location.
+
+So much for carefully planning this out. Time to [[fight.|Vampire Fight]]
+
+
+:: Attack Valeris {"position":"525,2750","size":"100,100"}
+You draw your sword towards Valeris as he pulls out his sword to strike against you. The two of you clash as Nalen begins to charge up a spell against you. You push Valeris off to prepare for Nalen's attack. Suddenly, Valeris quickly charges you cutting your arm with ease and falls back into his ready positon. You yelp as you put your hand to cover the injury. 
+
+//"FIREBALL Level 2."// Nalen shouts. 
+
+A fast paced fireball charges directly towards you and you duck out of the way just barely escaping more damage. Valeris wastes no time to charge at you again and you quickly draw your sword to stop his attack. You both clash for a bit and moving off from each other. Blood spills slowly from the cut on your arm and you are annoyed by this. Do you:
+
+[[Cast a fire spell|Disruption]]
+[[Wait|Blunder(Prep)]] 
 
 
 :: Backstory {"position":"900,300","size":"100,100"}
@@ -33,23 +52,58 @@ Shaking off his tiredness, Silas gets a closer look at his father. Though his fa
 
 
 :: Backstory II {"position":"900,500","size":"100,100"}
-Wasting no time, Silas gets his sister, and runs to the basement. Quaking in fear, he waits for his parents. After a few minutes, he hears gunshots, followed by two bloodcurdling screams. Both children start crying, and Silas desperately hopes his father will come thrrough that door any second to calm them down. However, he knows what those screams most likely mean, and moves to barricade the door.
+Wasting no time, Silas gets his sister, and runs to the basement. Quaking in fear, he waits for his parents. After a few minutes, he hears gunshots, followed by two bloodcurdling screams. Both children start crying, and Silas desperately hopes his father will come through that door any second to calm them down. However, he knows what those screams most likely mean, and moves to barricade the door.
 
 Just a moment too late.
 
-Claws the size of bowie knives tear through the flimsy wood, and the whole door begins to splinter. Silas dives under a couch and silences his breathing. He screams for his sister to follow him, but she freezes in the middle of his room. Realizing it's too late, Silas bites back sobs as he watches his sister be ripped apart. The pool of blood coats the left side of his face, and her screams will haunt Silas to his last day.
+Big claws the size of bowie knives tear through the flimsy wood, and the whole door begins to splinter. Silas dives under a couch and silences his breathing. He screams for his sister to follow him, but she freezes in the middle of the basement. Realizing it's too late, Silas bites back sobs as he watches his sister be ripped apart. The monster scurries from the basement upstairs. Silas comes out to see the aftermath. The pool of blood coats the left side of his face, and her screams will haunt Silas to his last day.
 
 [[Present Day]]
 
 
+:: Blunder {"position":"1500,2700","size":"100,100"}
+You wait for them to make the first move but you have made a blunder. Nalen starts by casting a fire spell on your gear that was separated from you when getting ready to fight them and it becomes engulfed in flames. You become annoyed by this and begin to cast your own fire spell to throw against Nalen. However, it appears that not all of your gear is gone, some stuff has been thrown out from the blast. Suddenly, Valeris lunges towards you with his sword and you jump out of the way. You wonder if you should try to see if you will find anything useful in the burning pile of gear. 
+
+[[Look through the stuff|Scavenge]]
+
+
+
+:: Blunder(Prep) {"position":"400,3000","size":"100,100"}
+You choose to wait for their next move to recover but you have made an mistake as you allow Nalen to charge up another fireball attack and Valeris uses this time to charge towards you. What do you do?
+
+[[Get ready|Decision]]
+[[Say something|Silas Defeat]]
+
+
+
+:: Camp(Inv) {"position":"200,2500","size":"100,100"}
+"Valeris, look at the big fire there." 
+
+"That's our guy. Hurry Nalen before he gets away."
+
+The pair rushes to the camp engulfed in flames. 
+
+"Damn it all Nalen, he got away." 
+
+"Right sire but look. These were vampires. Do you reckon had he not found our stone that the gnoll would've been killed?"
+
+"I think we found what makes him tick, Nalen. That must be his cause. I don't see any other way. He doesn't do this for profit, he's killing off monsters without justification. Though I wonder what he hopes to gain from this." 
+
+"Right Valeris, I think it's time to have a chat with our monster hunter eh?"
+
+"Indeed we must. Let us hurry before more monsters are killed."
+
+[[Darkwolf Hunt]]
+
+
 :: Cautious Start {"position":"700,1100","size":"100,100"}
-You pick up the stone to get a closer look. The sheer magical power makes it feel like holding a plasma globe. Engraved  on the side is an inscription: "''Orda Aldressia armament''"
+You pick up the stone to get a closer look. The sheer magical power makes it feel like holding a plasma globe. Engraved on the side is an inscription: "''Orda Aldressia armament''"
 
 [[That's strange. Whatever, back to the hunt!|Hothead start]]
 [[Whoever made this is clearly powerful. Nope! I'm outta here!|Retreat]]
 
 
-:: Cautious(Inv) {"position":"700,1900","size":"100,100"}
+:: Cautious(Inv) {"position":"550,1700","size":"100,100"}
 In a room far away, two men sit at a table.
 
 "So, he didn't take the bait, huh?" The first man says.
@@ -67,13 +121,114 @@ In a room far away, two men sit at a table.
 [["Agreed"|Next Hunt(Cautious)]]
 
 
+:: Confrontation {"position":"800,2400","size":"100,100"}
+"Who are you two?" You demanded. 
 
-:: Death {"position":"900,1100","size":"100,100"}
+(If:(history:)contains"Retreat")[My name is Valeris and my partner here is Nalen. I'm sure you know who we are judging by that rock you picked up early."] 
+
+(else:)[My name is Valeris and my partner here is Nalen. We are on a mission to stop you."]
+
+You analyze the creatures. Valeris is taller and a bit more wider than Nalen is. Valeris seems tough hardened and battle combat ready. However, Nalen looks thinner and a bit shorter though his head is more bigger than Valeris. You deduce that Valeris will attack you and Nalen will be on the sidelines. Nalen doesn't seem fit to fight you at your current combat level. 
+
+"What is your name son?" Valeris asked.
+
+"Silas. It's the last thing you will ever hear."
+
+"Is that so?" Valeris scoffed. 
+
+"Silas, you need to stop this madness. Give yourself up or else." Nalen said. 
+
+"Or else what? What if I refuse?" 
+
+"Or we will have to kill you and frankly I wish to not bloody up my clothes. Now just surrender or face our power." Valeris said. 
+
+"Then I guess we are going to [[FIGHT!"|Final Battle]]
+
+
+:: Darkwolf Hunt {"position":"400,2500","size":"100,100"}
+You run far from the camp stopping at an opening in the forest. You hide behind bushes after seeing a Darkwolf eating its prey in the opening. By the looks of its marks, it must be vicious and hostile. You begin to wield your sword and charge towards the beast. You leap into the air and suddenly get pushed back with might towards the ground. The beast becomes startled and runs away. 
+
+"That's weird. It didn't attack me? What did I hit to cause my fall?"
+
+Suddenly two figures emerge from the shadows to stop in front of you. Two little elf looking creatures are in front of you and it seems they don't take kindly towards your presence. You sense something is very wrong here. 
+
+[[Confrontation]] 
+
+
+:: Death {"position":"900,1200","size":"100,100"}
 The world goes black, mercifully sparing you from the knowledge of what comes next.
 
 ''YOU DIED.''
 
 [[Play Again?|Present Day]]
+
+
+:: Decision {"position":"300,3200","size":"100,100"}
+You stand ready to brace for Valeris' attack but he leaps out of the way for Nalen to strike you with his Fireball attack. But wait something is wrong here. Valeris is just waiting nearby. ''They are both going to attack you at the same time.'' 
+
+"FIREBALL LEVEL THREE!" Nalen yells. 
+
+A big rapid fireball is shot towards you and being low on energy, you have little options to react. 
+
+[[Do something|Silas Defeat]]
+
+
+:: Disruption {"position":"800,2800","size":"100,100"}
+You begin to cast a fire spell but Valeris once again catches you off guard landing another cut across your body then leaps back. Nalen shoots another Level 2 Fireball towards you and you have lost all energy to get out the way.
+
+//Direct hit!//
+
+You become uneasy and your vision is unbalanced. You shake your head to focus up and you choose to:
+
+[[Fake a fire spell|Keep Fighting]]
+[[Surrender|Doubt]]
+
+
+
+:: Doubt {"position":"1000,3000","size":"100,100"}
+Is this really what you want to do? Your mission won't succeed if you choose this path. You will fail your goal to eliminate all monsters. Do you:
+
+[[Refuse and fake a fire spell|Keep Fighting]] 
+[[Surrender|Recruitment]] 
+
+
+:: End Game/Credits {"position":"900,3600","size":"100,100"}
+Thank you for playing our game!
+
+Here is the things we used for our game:
+
+
+
+
+To restart our game, press [[here.|Start Game]]
+
+
+:: Final Battle {"position":"1100,2600","size":"100,100"}
+You ready your battle position ready to attack. Valeris gets into a battle postion but Nalen steps back to get ready into his battle positon. It seems your analysis was wrong. No running away this time. You begin to:
+
+[[Draw your sword|Attack Valeris]]
+[[Cast a fire spell|Nalen Strike]]
+[[Wait for their attack|Blunder]]
+
+
+:: Final Hunt(Cautious) {"position":"600,2300","size":"100,100"}
+You continue walking further down the path to search for more monsters to hunt down. You come to a halt recognizing whooshing sounds. 
+
+"It must be a vampire. But out here?" You questioned. 
+
+You lurk closer towards the vampire and see its all alone out here. Something is wrong here. It doesn't feel right for this vampire to wander here all by itself. 
+
+"This must be a trap. Vampires are territorial creatures and move along in packs and for this specific one wandering out from its group is highly suspicious. Could it be those Orda people? No doubt in my mind." You muttered. 
+
+You lay out your gear and pull out your specialized blow dart that kills on impact. You load the dart into the chamber and quickly blow to drive force shooting it towards the vampire. //Direct hit!// The vampires croaks as it falls to the ground dying from the quick poison spreading through it's body. 
+
+"Gotcha. Now where ar-"
+
+Suddenly two small looking creatures fall upon your position. You quickly leap out of the way from their landing. You see that one creature had a sword over where you were. It's clear you won't be escaping their grasp this time. 
+
+[[Confrontation]]
+
+
 
 
 :: Gnoll Escape {"position":"1200,1700","size":"100,100"}
@@ -87,7 +242,7 @@ You pour all of your will, your entire being, into your blade. You close your ey
 
 "What?!" Valeris yells, shocked by your display.
 
-"Heh, it seems you were right." You say, smug as a jaguar over a fresh kill. "The goods have smiled upon my soul."
+"Heh, it seems you were right." You say, smug as a jaguar over a fresh kill. "The gods have smiled upon my soul."
 
 With a final shout, you swing your blade, emitting a great beam of light. The beam knocks Valeris back out of sight, and goes on to shatter the barrier. Tired as can be, you [[walk away|Hothead(Inv)]], intent on sleeping like a log.
 ]]]
@@ -157,6 +312,10 @@ As you leave the clearing, a brilliant blue light erupts from the ground! You're
 [[Parry|Gnoll Escape]]
 
 
+:: Hesitation {"position":"600,2075","size":"100,100"}
+"What if the Orda is nearby?" You mutter to yourself. "I knew that was a trap so what if this camp is their next trap? It would be too easy to set up but I don't see any indication of their power. I can't take any chances. I have to run further. 
+
+You run away from the camp going further into the forest. As you continue running, you see footprints on the ground uniquely shaped to the Darkwolves you heard stories about. "Darkwolves aren't that hostile though they are unique in that aspect. They shouldn't attack humans except for a few outliers." You said quietly. "Time to check if this [[Darkwolf|Final Hunt(Cautious)]] is hostile or not"
 
 
 :: Hothead start {"position":"1100,1100","size":"100,100"}
@@ -184,6 +343,12 @@ As Valeris recounts the story, Nalen's jovial face slowly hardens. "Valeris, thi
 [[Back to Silas|Next Hunt(Hothead)]]
 
 
+:: Keep Fighting {"position":"775,3100","size":"100,100"}
+You begin to fake a fire spell to outwit Valeris but Valeris lunges towards you giving you no time to react. You leap out of the way just barely getting critically hurt by his sword. You remember having a smoke bomb in your pocket so you grab it and throw it at the ground causing immediate vision disruption. Before you are unable to see, you remember Valeris' last position so you slash your sword where he last was. 
+
+[["Take this!"|Silas Victory]]
+
+
 :: Monster Fight {"position":"900,900","size":"100,100"}
 When you arrive at the scene, you take a look around. The tracks have trampled the grass down to exposed soil, and the larger vegetation has been torn to shreds. Telltale signs of a gnoll. You hear it giggling, probably no more than 20 feet in front of you. By the side of the trail, you see a small stone, giving off a powerful magical aura.
 
@@ -191,12 +356,70 @@ When you arrive at the scene, you take a look around. The tracks have trampled t
 [[Follow the trail|Hothead start]]
 
 
-:: Next Hunt(Cautious) {"position":"700,2100","size":"100,100"}
+:: Nalen Strike {"position":"1200,3000","size":"100,100"}
+You begin to charge your fireball spell towards Valeris but Nalen is also charging his fireball attack to repel yours. You both begin your chants. 
+
+O, lord of fire, God on high...(click:"O, lord of fire, God on high...")[
+
+O, lord of fire, God within...(click:"O, lord of fire, God within...")[
+
+Show my foes, the end is nigh!(click:"Show my foes, the end is nigh!")[
+
+Show my enemy, the fight ends here!(click:"Show my enemy, the fight ends here!")[
+
+Douse this area in flames so bright...(click:"Douse this area in flames so bright...")[
+
+Douse his ground in flames so bright...(click:"Douse his ground in flames so bright...")[
+
+Cleanse his soul, and end this fight!(click:"Cleanse his soul, and end this fight!")[
+
+End this madness, and stop his terror!(click:"End this madness, and stop his terror!")[
+
+I cast Fireball, at 5th level! ''BURN!''(click:"I cast Fireball, at 5th level! BURN!")[
+
+I use Fireball, at 3rd level! ''BURN!''(click:"I use Fireball, at 3rd level! BURN!")[
+
+Nalen is shocked that you possess great mage powers that rivals the best of Orda's mages. The clash of fires spell roars loudly as both attacks are nullifed. A loud BOOM echoes across the [[land.|Orda Exposed]] ]]]]]]]]]]
 
 
+:: Next Hunt(Cautious) {"position":"450,1900","size":"100,100"}
+After retreating, you collect your senses and plan out your next move. You recognize this part of the forest before. There's an vampire encampment nearby where local human hunters search for these creatures. 
 
-:: Next Hunt(Hothead) {"position":"1200,2100","size":"100,100"}
+Your urge for //Bloodlust// continues escalating further but you are wary about the Orda. You reamin unsure of their next move. Surely that rock placement was an miscalculation or not. No time to think, time to eliminate another monster. "Should I kill the vampires or run further?" 
 
+[["CHARGE"|Attack Camp]]
+[["I don't think I will"|Hesitation]]
+
+
+:: Next Hunt(Hothead) {"position":"1100,2100","size":"100,100"}
+As you escape from the confrontation of members from the Orda, you continue running when you stop by near a village that looks destroyed and buildings crumbled down. You wonder if you should go into the village to look for any survivors who survived the attack. 
+"I think I can scavenge for supplies and maybe help anyone in need of help." Silas said, running towards the village. 
+
+[[Village]] 
+
+
+:: Orda Exposed {"position":"1100,3300","size":"100,100"}
+Your intense battle with Nalen attracts nearby monster hunters towards your location. Their identities becomes exposed. 
+
+//"ITS THOSE ELVEN PROTECTORS, KILL THEM."// A monster hunter yelled.
+
+The group of monster hunters start charging towards Valeris and Nalen. "Nalen, we must flee //NOW.//" The elven protectors start to flee the scene away from the group. You lower your guard as they run away and conversate with the other monster hunters. 
+
+"What are you doing out here fighting these elven protectors son?" A monster hunter said. 
+
+"They was attacking me sir! I was fighting for me dear life trying to hold on. The stories were all lies. They are traitors to humans!" you exclaimed. 
+
+"What are you saying son? You are speaking nonsense." Another monster hunter said. 
+
+"Believe me, I didn't believe it at first. These elven protectors, the Orda, they want humans killed. You need to believe me, they were going to //kill// me if you guys didn't come sooner. We must alert the public about this. We must declare war on the Orda Aldressia." you said, smirking with a grin. 
+
+"You speak nonsense son. You are to be put away and revoked of your license effective immediately." Another monster hunter said. 
+
+"WHAT! On what grounds?"
+
+"For disrupting the peace and causing havoc in this forest. You realize that when hunting monsters, we keep damage to a minimum and you did not follow that at all. Come on, let's go."
+
+You are cuffed on the spot and get sent away for your supposed crimes. You can't help but realize you can't continue your mission anymore. It seems this battle has resulted in a [[tie.|End Game/Credits]] 
 
 
 :: Present Day {"position":"900,700","size":"100,100"}
@@ -209,9 +432,142 @@ As Silas walks out the door, his friendly smile hardens into cold concentration.
 [[To the scene|Monster Fight]]
 
 
-:: Retreat {"position":"700,1500","size":"100,100"}
+:: Recruitment {"position":"1400,3500","size":"100,100"}
+"What do you mean by a offer?" 
+
+"Please don't kill me. I will lose this fight as my combat abiltiies is below yours. And Valeris here is too busy eating that burger because he loves them so much. He likes to eat things very slowly and once he sets his mind on something, he's going to continue until it's done." Nalen explains. 
+
+"Ah I see. He's a food lover. Now go on with this offer of yours."
+
+"Yes. I propose that you should join us. You are human but you are unlike any human we have ever seen. Your skills show us that a lot and we can use the help we can get."
+
+"But you guys let monsters reign over humans. How is that just?"
+
+"Don't worry about that. I believe we can work something out. What do you say?"
+
+"Hmm.. Alright why not?"
+
+"Hey, what did I miss?" Valeris says. 
+
+"Valeris, meet our new recruit. He will be in good hands under us."
+
+"Nice work Nalen, I'm sorry we got off on the wrong foot here."
+
+"Valeris, don't say another word. You almost left me to die just so you can eat. You need to fix that habit of yours."
+
+Valeris laughs. "I'm sorry Nalen. It's just when I see burgers, I lose my sense of self and go to eat them. They taste ''soooo gooood''."
+
+"Alright you two, can we get a move on now?" You say with impatience. 
+
+The pair guides Silas to follow them back to Orda's HQ. Silas wonders if this offer will be enough to satisfy him. He will have to wait and see. It could be good after all. Just [[maybe.|End Game/Credits]] 
+
+
+:: Retreat {"position":"625,1425","size":"100,100"}
 You decide that //something// feels off here. Gnolls don't even live in forests! 
 
 //"Yeah, this is DEFINITELY a trap"//, you think to yourself. //"Whoever made that stone is probably the one who set it. And they're ''powerful''. This could be bad, I should get out of here."//
 
 [[Leave|Cautious(Inv)]]
+
+
+:: Scavenge {"position":"1500,2900","size":"100,100"}
+You dive down to grab some stuff and you see burnt pieces of gear and it seems that your gear didn't survive the fire blast. However, your wrapped burger is still intact. You wonder why this survived and your other gear did not. 
+
+"Should I eat it? Of course not, that's stupid. Who eats in the middle of the fight? Whatever, I'll just throw it away."
+
+You throw [[the burger|Valeris Distraction]] to the side out of frustration to the side and raise your sword getting ready to fight. 
+
+
+
+
+
+:: Silas Defeat {"position":"500,3500","size":"100,100"}
+You are struck then by Nalen's attack and Valeris' sword pierces through your chest. You become critically injured and you fall to your knees. Blood foams from the mouth and spills as your last dying breaths is met by the Orda. You have failed to eliminate all monsters as your vision becomes blurry. "It..wasn't..supposed..to...end...this..way" You quietly said. 
+
+"You're right, it wasn't. You could've lived longer if you didn't do this. It's a shame, you would've proven to be useful for us." Nalen said. 
+
+"Don't take it so personally Silas. You couldn't have won in the end. You were destined to fail. You aren't a hero, and you won't be remembered as one." Valeris said. 
+
+You start closing your eyes as their voices becomes humming sounds. It gets darker and darker until it is complete silence. You have [[died.|End Game/Credits]] 
+
+
+:: Silas Victory {"position":"800,3300","size":"100,100"}
+You lunge your sword in the direction predicting Valeris' movement. //Critical hit!// Valeris falls face down into the ground holding his chest where you punctured his chest. The smoke begins to clear up and you begin to see your surroundings again. 
+
+//"FIREBALL."// Nalen screams. 
+
+Nalen tries to attack you when you weren't expecting it but you get in your stance to parry it. 
+
+Not yet..
+(click:"Not yet..")[
+Not yet...
+(click:"Not yet...")[
+and PARRY!
+(click:"and PARRY!")
+
+[With a rapid slash of your sword, you maneuver the Fireball attack back towards Nalen as he's struck critically in his chest leaving burn marks in his upper body. "Valeris?" Nalen utters as he falls to the ground dying immediately. You turn to Valeris who is rapidly losing blood. 
+
+"You...monster." Valeris said angrily. 
+
+"No. I'm not the monster here. I'm the monster hunter." You said smirking.  
+
+You raise your sword high above Valeris and force it on his head finishing him off. You clean off your sword covered with his blood and gather your belongings. You just killed two Orda members meaning you will be hunted down. No time to worry about that. "It's time to finish what I started. I hope you are proud of me family, I do this for you. It looks like I [[won."|End Game/Credits]]]
+]]
+
+
+:: Start Game {"position":"900,100","size":"100,100"}
+In a world where humans and monsters fight constantly to remain in balance, a vengeful human monster’s mission threatens this balance. To stop him, an ancient elven detective of the hidden Orda Aldressia comes out from hiding. Their battle will determine whether vengeance or balance comes out on top.  
+
+Welcome to //The Wild Hunt.// 
+
+Press [[here|Backstory]] to start the game!
+
+
+:: Valeris Distraction {"position":"1450,3175","size":"100,100"}
+Funnily enough, Valeris drops his sword and runs towards the burger with lust in his eyes. 
+
+"That's weird. Why did he drop his sword to go eat the burger?" You question. 
+
+"Valeris, stop. Lock in!" Nalen exclaimed.
+
+Valeris ignores his yells as Nalen becomes shook that it is now him against you. You start to like your chances a lot more. 
+
+"Now shall we fight?" You say with a smirk.
+
+"WAIT, how about a offer?" Nalen begs. 
+
+[[Talk to Nalen|Recruitment]]
+
+
+:: Vampire Fight {"position":"200,2300","size":"100,100"}
+You leap out in the opening facing the vampires. You clear your mind, and begin to chant.
+
+O, lord of fire, God on high...(click:"O, lord of fire, God on high...")[
+
+Show my foes, the end is nigh!(click:"Show my foes, the end is nigh!")[
+
+Douse this camp in flames so bright...(click:"Douse this camp in flames so bright...")[
+
+Cleanse their souls, and end this fight!(click:"Cleanse their souls, and end this fight!")[
+
+I cast Fireball, at 5th level! ''BURN!''(click:"I cast Fireball, at 5th level! BURN!")[
+
+The camp is engulfed in flames, and you lunge out of the way nearly injuring yourself.  You look up at the vampires howl in pain as they disintegrate into soot. You run out of the camp as the entire camp crumbles down. It's time to [[leave|Camp(Inv)]] this place. ]]]]]
+
+
+:: Village {"position":"1100,2300","size":"100,100"}
+"Hello?" you yell. 
+
+You walk around the village to be shocked by the aftermath. Bodies littered everything like trash and building destroyed into pieces. 
+
+"The harpies gave no mercy to these poor souls."
+
+You are fueled by more anger as these humans didn't deserve to die. They could've lived prosperous lives but these monster...those harpies took that away. You punch the ground mourning the deaths of the poor villagers. Wiping your tears away, you begin to look for anything useful to scavenge to continue your hunt for monsters. Suddenly the air surrounding you begins to change color. Slithering mists flow around your body as the air begins to turn red. "ITS A TRAP." you exclaimed. 
+
+You run quickly away from the village as the red mist consolidates forming a red sphere over the village. It's clear those people from the confrontation laid out another trap. You refuse to let them get the upper hand, it's time to fight these people. 
+
+"Come on out here, I know you are here somewhere. Come fight me!"
+
+Suddenly two figures emerge from the village confronting you as you demanded.
+
+[[Confrontation]] 
